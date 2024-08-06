@@ -19,28 +19,22 @@ This project involves developing an image classification model to classify image
 ## Folder Structure
 
 The project directory is organized as follows:
-ANIMAL_CLASS_PREDICTION/
 │
-├── app.py # Main Flask application file for the web interface
-├── requirements.txt # Python package dependencies
+├── ANIMAL_CLASS_PREDICTION/ # Folder for the Flask web application
+│ ├── app.py # Main Flask application file for the web interface
+│ ├── templates/
+│ │ ├── index.html # HTML file for the image upload page
+│ │ └── result.html # HTML file for displaying classification results
 │
-├── static/
-│ ├── style.css # CSS file for styling the web application
+├── Training Data/ # Directory for training datasets
 │
-├── templates/
-│ ├── index.html # HTML file for the image upload page
-│ ├── result.html # HTML file for displaying classification results
+├── Testing Data/ # Directory for testing datasets
 │
-├── model/
-│ ├── animal_model.h5 # Saved model weights
+├── uploads/ # Directory for uploaded images
 │
-├── data/
-│ ├── train/ # Training dataset directory
-│ ├── validation/ # Validation dataset directory
+├── ANIMAL_CLASSIFICATION_CNN.ipynb # Jupyter notebook for model training and evaluation
+├── animal_model.keras # Saved model weights
+├── TUNED_model.keras # Tuned model weights
 │
-├── scripts/
-│ ├── data_preprocessing.py # Script for data loading and preprocessing
-│ ├── model_training.py # Script for training the model
-│
-└── README.md # This file
+└── README.md # This file── README.md # This file
 
